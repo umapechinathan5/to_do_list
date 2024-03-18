@@ -6,12 +6,7 @@ import Display from "./Components/Display";
 
 function App() {
   const [todos, setTodos] = useState([
-    {
-      id: 1,
-      title: "task 1",
-      description: "task 1 pending",
-      status: false,
-    },
+    
   ]);
   const handleStatusChange = (product, completion) => {
     const updatedTodos = todos.map((todo) =>
